@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>HTML Form</h1>
+    <form action="#">
+      <div>
+        <label for="firstname">First Name:</label>
+        <input
+          type="text"
+          id="firstname"
+          name="firstname"
+          required="required"
+        /><br />
+        <label for="lastname">Last name:</label>
+        <input
+          type="text"
+          id="lastname"
+          name="lastname"
+          required="required"
+        /><br />
+        <lable for="age">Age</lable>
+        <input type="number" id="age" name="age" required="required" /><br />
+
+        <lable for="email">Email</lable>
+        <input type="email" id="email" name="email" required="required" /><br />
+
+        <lable for="password">Password</lable>
+        <input
+          type="password"
+          id="Password"
+          name="Password"
+          required="required"
+        /><br />
+      </div>
+      <div>
+        <lable for="gender">Gender:</lable>
+        <input type="radio" name="gender" />
+        <label for="male">Male</label>
+        <input type="radio" name="gender" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" />
+        <lable for="other">Other</lable>
+        <input type="radio" name="gender" />
+      </div>
+
+      <div>
+        <label for="selectyour device">Select your device:</label>
+        <input type="checkbox" id="macbook" name="Macbook" />
+        <span>Macbook</span>
+        <input type="checkbox" id="iphon" name="iphon" />
+        <span>iPhone</span>
+        <input type="checkbox" id="ipad" name="ipad" />
+        <span>iPad</span>
+      </div>
+
+      <div>
+        <label for="finde">How did you hear about us?</label>
+        <select id="find" name="finde" required="required">
+          <option value="social media">Social Media</option>
+          <option value="search engine">Search Engine</option>
+          <option velo="friend">Friend</option>
+          <option value="other">Other</option></select
+        ><br />
+      </div>
+
+      <div>
+        Sign me up for News Letter
+        <input type="checkbox" />
+      </div>
+
+      <input type="submit" value="Sign Up" />
+    </form>
+  </body>
+</html>
